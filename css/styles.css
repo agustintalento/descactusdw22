@@ -328,17 +328,21 @@ h4{
 
 /*media queries*/
 
-@media screen and (max-width: 1024px) {
 
-    #video{
-        width: 80%;
-        height: 70%;
-        border: 1px solid #D9C6A3;
-        padding: 10px;
-    }
-}
     
 
+@media screen and (max-width: 768px) {
+
+    #index-body{
+        grid-template-rows: auto auto 80px;
+    }
+
+    #video-container{
+        width: 100%;
+        height: 80%;
+       
+    }
+}
 
 
 
