@@ -340,11 +340,7 @@ h4{
     
 
 
-@media screen and (max-width: 519px) {
-    .sm-bar{
-        display: none;
-    }
-}
+
 
 /*modifico album container*/
 
@@ -382,4 +378,19 @@ h4{
         font-size: medium;
     }
 
+    .sm-bar{
+        display: none;
+    }
+
+    .river-link{
+        font-size: medium;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .river-link{
+        font-size: small;
+    }
+  
 }
