@@ -1,0 +1,378 @@
+
+/* Estilos de elementos grales*/
+
+.container{
+    color: #D9C6A3;
+    background-color: #050503;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    display: grid;
+    grid-template-rows: auto 700px 80px;
+    grid-template-areas: "navbar"
+                         "main"
+                         "footer";
+}
+
+.navbar{
+    grid-area: navbar;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+    background-color: #050503b9;    
+    border-top: 1px solid #D9C6A3;
+    border-bottom: 1px solid #D9C6A3;
+
+}
+
+.logo-container{
+    display: flex;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+
+.sm-bar{
+    padding-right: 50px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-flex;
+    padding: 5px;
+}
+
+a:link{
+    color: #D9C6A3;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #D9C6A3;
+    text-decoration: none;
+}
+
+a.logo:hover{
+    color: #D9C6A3;
+}
+
+a:hover{
+    color: whitesmoke;
+}
+
+.main{
+    background-image: url(../img/bck.jpg);
+}
+
+h2{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #05050394;
+    color: #D9C6A3;
+    font-size: small;
+    font-family: 'Playfair Display', serif; 
+    padding: 15px;
+    border: none;
+    transition: all 0.2s;
+}
+
+.btn:hover{
+    background-color: #244166ad;
+    color: whitesmoke;
+}
+
+.small-text{
+    font-size: 15px;
+    color: #D9C6A3;
+}
+
+.footer{
+    color: #D9C6A3;
+    grid-area: footer;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border-top: 1px solid #D9C6A3;
+    
+}
+
+.sm-footer{
+    width: 297px;
+    height: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-flow: row wrap;
+    height: 35px;
+
+}
+
+input{
+    outline: 0;
+    border: none;
+    border-bottom: 1px solid #D9C6A3;
+    box-sizing: border-box;
+    background-color: #05050300;
+    color: #D9C6A3;
+    padding-top: 10px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: medium; 
+}
+
+/*estilos index*/
+
+#out-now{
+    height: 30px;
+    background-color: #D9C6A3;
+    color: #050503;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#video-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+    aspect-ratio: 16/9;
+
+}
+
+#video{
+    width: 60%;
+    height: 70%;
+    border: 1px solid #D9C6A3;
+    padding: 10px;
+}
+
+/*estilos tienda*/
+
+.store-main{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+   
+}
+
+h4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    padding-bottom: 30px;
+}
+.subs-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #D9C6A3;
+    width: 70%;
+    padding-bottom: 50px;
+    background-color: #05050394;
+    
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+#news-check:checked{
+    background-color: #05050394;
+    color: #D9C6A3;
+}
+
+#user-data{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    width: 60%;
+    border: 1px solid #D9C6A3;
+    padding: 20px;
+
+}
+
+/*estilos eventos*/
+
+#main-events{
+    display: flex;
+    flex-flow: column wrap;
+    color: #050503;
+    height: auto;
+ 
+}
+
+.eventRow{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    background-color: #D9C6A3;
+    border-bottom: 1px solid #050503;
+    justify-content: space-evenly;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.date{
+    width: 150px;
+    padding-left: 30px;
+}
+
+.tickets{
+    padding-right: 30px;
+}
+
+.city{
+    
+    font-size: medium;
+}  
+
+.ticket-btn{
+    font-size: small;
+    width: 92px;
+}
+
+/*estilos musica*/
+
+
+#music-container{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.album{
+    border: 1px solid #D9C6A3;
+    padding: 10px;
+}
+
+.album-caption{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+
+
+/*estilos elbando*/
+
+#bando-body{
+    grid-template-rows: auto auto 80px;
+
+}
+
+
+.main-photos{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.photos{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.one-photo{
+    border: 10px solid #D9C6A3;
+    width: 90%;
+    height: 70%;
+    background-color: #05050394;
+    margin-bottom: 20px;
+}
+
+/*media queries*/
+
+@media screen and (max-width: 1024px) {
+
+    #video{
+        width: 80%;
+        height: 70%;
+        border: 1px solid #D9C6A3;
+        padding: 10px;
+    }
+}
+    
+
+
+@media screen and (max-width: 519px) {
+    .sm-bar{
+        display: none;
+    }
+}
+
+/*modifico album container*/
+
+@media screen and (max-width: 965px) {
+    .album-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+    }
+
+    #music-body{
+        
+        display: grid;
+        grid-template-rows: auto auto 80px;
+        grid-template-areas: "navbar"
+                             "main"
+                             "footer";
+    }
+
+    #secondAlbum{
+        padding-bottom: 20px;
+    }
+
+    .navbar{
+        justify-content: center;
+    }
+} 
+
+/*cambio tamaño fuentes en div de store */
+
+@media screen and (max-width: 519px) {
+    .store-main {
+        font-size: medium;
+    }
+
+}
