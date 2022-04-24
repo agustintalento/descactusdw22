@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
         <link rel="stylesheet" href="./css/styles.css">
         <link rel="shortcut icon" href="./img/LOGO1.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,9 +15,13 @@
         <title>DESCACTUS</title>
     </head>
 
-    <body id="index-body" class="container">
-        <nav class="navbar">
-                
+    <body id="index-body" class="contain container-fluid">
+
+        <!--la estructura del sitio comprende un navbar y un footer gral, cambiando en cada uno el main-->
+        <nav class="nav d-flex align-content-center">
+            
+            <!--navbar compuesto por logo, barra de social media y el menu del sitio-->
+
             <div class="logo-container">
                 <a class="logo" href="index.html">
                     DESCACTUS
@@ -42,8 +47,13 @@
                 
                 
         </nav>
+
             
         <main  class="main">
+
+            <!--el main en este caso, contiene un banner con enlace al último disco, 
+            y un video importado de youtube con la última presentación de la banda-->
+            
             <div id="out-now">
                 <a class="river-link" href="https://descactus.bandcamp.com/album/river-last-2-hours">  YA SALIÓ : ' RIVER. + L II H. ' Escuchalo acá</a>
             </div>
@@ -54,6 +64,9 @@
         </main>
 
         <footer class="footer">
+            <!--el footer está compuesto por una barra de social media al igual que el navbar 
+            y un enlace para contacto por mail con la banda-->
+
             <div class=" sm-footer">
                 <a href="https://www.facebook.com/dezkak" target="_blank"><i class="fa-brands fa-facebook"> </i> </a>
                 <a href="https://www.instagram.com/descactus/" target="_blank"><i class="fa-brands fa-instagram"> </i> </a>
@@ -70,7 +83,7 @@
             
         </footer>
 
-        
+        <script src="./js/bootstrap.bundle.min.js"></script>    
     </body>
 
 </html>
