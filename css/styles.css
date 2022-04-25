@@ -4,6 +4,7 @@
 /*el contenido gral con el diseño con 3 grandes partes, navbar, main y el footer (el nav y footer son comúnes a todo el sitio)*/
 
 .contain{
+    padding: 0px;
     color: #D9C6A3;
     background-color: #050503;
     font-family: 'Playfair Display', serif;
