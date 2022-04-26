@@ -21,15 +21,16 @@
     display: flex;
     flex-flow: row wrap;
     align-content: center;
-    /*poner con boots: 
-    justify-content-evenly y align-end */
-    justify-content: space-evenly;
+    justify-content: space-around;
     background-color: #050503b9;    
     border-top: 1px solid #D9C6A3;
     border-bottom: 1px solid #D9C6A3;
 
-    
+}
 
+.nav{
+    border-top: 1px solid #D9C6A3;
+    padding-top: 10px;
 }
 
 .logo-container{
@@ -39,8 +40,11 @@
     flex-flow: row wrap;
     align-items: center;
 
+}
+
+.logo-boots-mod{
     /*para que quede alineado el logo con boots*/
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 }
 
 
@@ -118,6 +122,7 @@ h2{
     align-items: center;
     border-top: 1px solid #D9C6A3;
     max-height: 80px;
+    justify-content: space-evenly;
 }
 
 .sm-footer{
@@ -154,6 +159,10 @@ h2{
     align-items: center;
 }
 
+.animate__animated.animate__flash {
+    --animate-duration: 3s;
+  }
+
 a.river-link{
     color: #050503;
 }
@@ -177,6 +186,11 @@ a.river-link{
     height: 70%;
     border: 1px solid #D9C6A3;
     padding: 10px;
+}
+
+#video:hover{
+    background-color: #244166ad;
+
 }
 
 /*estilos STORE*/
@@ -262,10 +276,9 @@ input{
     display: flex;
     flex-flow: row nowrap;
     align-items: center;
-    background-color: #D9C6A3;
     border-bottom: 1px solid #050503;
     justify-content: space-evenly;
-}
+    background-image: linear-gradient(54deg, #d9c6a3, #c9b797b5);}
 
 .location{
     display: flex;
@@ -309,6 +322,10 @@ input{
     padding: 10px;
 }
 
+.album:hover{
+    background-color: #244166ad;
+}
+
 .album-caption{
     display: flex;
     flex-flow: row nowrap;
@@ -346,6 +363,15 @@ input{
 }
 
 /*MEDIA QUERIES*/
+
+/*solución problema del body del INDEX en resoluciones > a 1440px*/
+
+@media screen and (min-width: 1440px) {
+    #index-body{
+        grid-template-rows: auto auto 80px;
+    }
+}
+
 
 /*cambio tamaño del body y del contenedor del video en el INDEX*/
 

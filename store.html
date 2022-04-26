@@ -4,6 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
         <link rel="stylesheet" href="./css/styles.css">
         <link rel="shortcut icon" href="./img/LOGO1.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,7 +14,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">
         <title>DESCACTUS</title>
     </head>
-    <body class="container">
+    <body class="contain container-fluid">
         <nav class="navbar">
                 
             <div class="logo-container">
@@ -44,12 +45,13 @@
         
         <main class="main">
             <!--la tienda, por ahora está compuesta por un form para la suscripción del usuario 
-            al mailing de la banda, proximamente tendrá componentes para "adquirir"-->
+            al mailing de la banda, proximamente tendrá componentes para "adquirir",
+            el título de suscripción está animado y tiene un delay para la animación-->
 
             <div class="store-main">
                 <div><h3> PROXIMAMENTE LA TIENDA</h3></div>
                 <div class="subs-container">
-                    <h4>Suscribite para recibir primero/a las novedades</h4>
+                    <h4 class="animate__animated animate__pulse animate__delay-1s">Suscribite para recibir primero/a las novedades</h4>
 
                     <form autocomplete="off" id="user-data" action="">
 
