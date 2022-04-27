@@ -190,11 +190,20 @@ a.river-link{
 
 #canvasIndexLabel{
     text-decoration: overline;
+    padding-right: 35px;
 }
 
 .btn-close{
     background-color: #d9c6a3;
     
+}
+.offcanvas-body{
+    overflow: hidden;
+}
+
+.video-card{
+    border: 1px solid #D9C6A3;
+    padding: 5px;
 }
 /*estilos STORE*/
 
