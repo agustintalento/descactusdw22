@@ -5,7 +5,7 @@
 
 .contain{
     color: #D9C6A3;
-    padding-top: 5px;
+    padding: 5px;
     background-color: #050503;
     font-family: 'Playfair Display', serif;
     font-size: 20px;
@@ -14,29 +14,17 @@
     grid-template-areas: "navbar"
                          "main"
                          "footer";
-}
-
-.navbar{
-    grid-area: navbar;
-    display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    justify-content: space-around;
-    background-color: #050503b9;    
-    border-top: 1px solid #D9C6A3;
-    border-bottom: 1px solid #D9C6A3;
 
 }
-
-
 
 .nav{
-    
     border-top: 1px solid #D9C6A3;
     padding-top: 10px;
 }
 
-
+.nav-border{
+    border-bottom: 1px solid #D9C6A3;
+}
 
 .navbar-dark{
     display: none;
@@ -48,14 +36,8 @@
     font-size: 40px;
     flex-flow: row wrap;
     align-items: center;
-    padding-bottom: 5px;
-}
-
-.logo-boots-mod{
-    /*para que quede alineado el logo con boots*/
     padding-bottom: 20px;
 }
-
 
 .sm-bar{
     padding-right: 50px;
@@ -94,12 +76,7 @@ a:hover{
     background-image: url(../img/bck.jpg);
 }
 
-h2{
-    display: flex;
-    flex-flow: row wrap;
-    align-content: center;
-    justify-content: center;
-}
+
 
 /*estilo de los botones, dandole hover al pasar el puntero por encima, y tamaño a la fuente */
 
@@ -156,9 +133,7 @@ h2{
 
 /*estilos INDEX, al cual además de la estructura gral, se le agrega un video y un banner de promoción del último disco*/
 
-#index-body{
-    padding: 5px;
-}
+
 
 #out-now{
     height: 40px;
@@ -376,6 +351,14 @@ input{
 .main-photos{
     display: flex;
     flex-flow: column wrap;
+}
+
+h2{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    padding: 20px 20px;
 }
 
 .photos{
