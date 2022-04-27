@@ -5,6 +5,7 @@
 
 .contain{
     color: #D9C6A3;
+    padding-top: 5px;
     background-color: #050503;
     font-family: 'Playfair Display', serif;
     font-size: 20px;
@@ -27,9 +28,18 @@
 
 }
 
+
+
 .nav{
+    
     border-top: 1px solid #D9C6A3;
     padding-top: 10px;
+}
+
+
+
+.navbar-dark{
+    display: none;
 }
 
 .logo-container{
@@ -202,6 +212,7 @@ a.river-link{
     align-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 20px;
     padding-bottom: 15px;
    
 }
@@ -212,6 +223,11 @@ h4{
     justify-content: center;
     width: 60%;
     padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.store-soon{
+    padding-bottom: 20px;
 }
 .subs-container{
     display: flex;
@@ -237,12 +253,15 @@ input{
     font-family: 'Playfair Display', serif;
     text-align: center;
     font-size: medium; 
+    width: 60%;
 }
 
 .checkbox{
     display: flex;
     flex-direction: row;
-    align-items: flex-end;
+    width: 65%;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #news-check:checked{
@@ -268,10 +287,20 @@ input{
 #main-events{
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-evenly;
+    padding-bottom: 100px;
+}
+
+#contain-events{
+    display: flex;
+    flex-flow: column wrap;
     color: #050503;
     height: auto;
- 
+    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke; 
+    padding: 5px 5px;
 }
+
 
 .eventRow{
     display: flex;
@@ -437,12 +466,24 @@ input{
         display: none;
     }
 
+    .link-bar{
+        display: none;
+    }
+
     .river-link{
         font-size: medium;
     }
 
     .footer{
         font-size: medium;
+    }
+
+    .navbar-dark{
+        display: block;
+    }
+
+    #burger-menu:visited{
+        display: none;
     }
 }
 
