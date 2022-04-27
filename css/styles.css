@@ -4,7 +4,6 @@
 /*el contenido gral con el diseño con 3 grandes partes, navbar, main y el footer (el nav y footer son comúnes a todo el sitio)*/
 
 .contain{
-    padding: 5px;
     color: #D9C6A3;
     background-color: #050503;
     font-family: 'Playfair Display', serif;
@@ -39,7 +38,7 @@
     font-size: 40px;
     flex-flow: row wrap;
     align-items: center;
-
+    padding-bottom: 5px;
 }
 
 .logo-boots-mod{
@@ -147,7 +146,9 @@ h2{
 
 /*estilos INDEX, al cual además de la estructura gral, se le agrega un video y un banner de promoción del último disco*/
 
-
+#index-body{
+    padding: 5px;
+}
 
 #out-now{
     height: 40px;
@@ -336,6 +337,7 @@ input{
 
 /*estilos ELBANDO*/
 
+
 #bando-body{
     grid-template-rows: auto auto 80px;
 
@@ -356,11 +358,11 @@ input{
 
 .one-photo{
     border: 10px solid #D9C6A3;
-    width: 90%;
-    height: 70%;
+    width: 80% !important;
+    height: 60% !important;
     background-color: #05050394;
     margin-bottom: 20px;
-}
+} 
 
 /*MEDIA QUERIES*/
 
@@ -420,6 +422,7 @@ input{
 
     .navbar{
         justify-content: center;
+        align-items: flex-end;
     }
 } 
 
