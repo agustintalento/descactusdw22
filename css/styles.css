@@ -158,7 +158,7 @@ a.river-link{
 
 #video-container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     align-content: space-around;
@@ -172,11 +172,16 @@ a.river-link{
     height: 70%;
     border: 1px solid #D9C6A3;
     padding: 10px;
+
 }
 
 #video:hover{
     background-color: #244166ad;
 
+}
+
+#videos-btn{
+    padding-top: 10px;
 }
 
 /*estilos STORE*/
@@ -312,7 +317,10 @@ input{
 
 /*estilos MUSIC*/
 
-
+.card{
+    background-color: #05050300 !important;
+    padding-bottom: 20px;
+}
 #music-container{
     margin-top: 50px;
     display: flex;
