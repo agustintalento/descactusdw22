@@ -184,6 +184,18 @@ a.river-link{
     padding-top: 10px;
 }
 
+#canvasIndex{
+    background-color: #050503;
+}
+
+#canvasIndexLabel{
+    text-decoration: overline;
+}
+
+.btn-close{
+    background-color: #d9c6a3;
+    
+}
 /*estilos STORE*/
 
 .store-main{
