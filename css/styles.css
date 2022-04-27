@@ -478,10 +478,6 @@ h2{
         display: none;
     }
 
-    .link-bar{
-        display: none;
-    }
-
     .river-link{
         font-size: medium;
     }
@@ -490,13 +486,7 @@ h2{
         font-size: medium;
     }
 
-    .navbar-dark{
-        display: block;
-    }
 
-    #burger-menu:visited{
-        display: none;
-    }
 }
 
 /*cambio fuente del banner del INDEX */
@@ -504,6 +494,10 @@ h2{
 @media screen and (max-width: 375px) {
     .river-link{
         font-size: small;
+    }
+
+    #videos-btn{
+        padding-top: 0px;
     }
   
 }
