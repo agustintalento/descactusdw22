@@ -56,7 +56,7 @@
                         <h3 class="point">PALACIO SUDAMERICA</h3>
                         <div class="city"><p>Montevideo, Uruguay</p></div>
                     </div>
-                    <div class="tickets"><button class="ticket-btn btn" type="button" id="tickets1" onclick="alert('Entendemos tu ansiedad. Tickets proximamente disponibles')">TICKETS</button></div>
+                    <div class="tickets"><button class="ticket-btn btn" data-bs-toggle="modal" data-bs-target="#events-modal" type="button" id="tickets1" >TICKETS</button></div>
                 </div>
                 <div id="secondDate" class="eventRow">
                     <div class="date"> 23.12.22</div>
@@ -64,7 +64,7 @@
                         <h3 class="point">PALACIO SUDAMERICA</h3>
                         <div class="city"><p>Montevideo, Uruguay</p></div>
                     </div>
-                    <div class="tickets"><button class="ticket-btn btn" type="button" id="tickets1" onclick="alert('Entendemos tu ansiedad. Tickets proximamente disponibles')">TICKETS</button></div>
+                    <div class="tickets"><button class="ticket-btn btn" data-bs-toggle="modal" data-bs-target="#events-modal" type="button" id="tickets1">TICKETS</button></div>
                 </div>
                 <div id="thirdDate" class="eventRow">
                     <div class="date"> 24.12.22</div>
@@ -73,6 +73,23 @@
                         <div class="city"><p>La Pedrera, Uruguay</p></div>
                     </div>
                     <div class="tickets"><button class="ticket-btn btn" type="button" id="tickets1" disabled>AGOTADO</button></div>
+                </div>
+            </div>
+            <!-- Modal -->
+            <div class="modal fade" id="events-modal" tabindex="-1" aria-labelledby="events-modalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="events-modalLabel">ENTENDEMOS TU ANSIEDAD.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>PROXIMAMENTE ENTRADAS DISPONIBLES</p>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
                 </div>
             </div>
         </main>

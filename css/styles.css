@@ -200,12 +200,15 @@ a.river-link{
 }
 .offcanvas-body{
     overflow: hidden;
-}
-
-.video-card{
+    display: flex;
     border: 1px solid #D9C6A3;
     padding: 5px;
+    align-items: center;
+    margin-bottom: 10px
+
 }
+
+
 /*estilos STORE*/
 
 .store-main{
@@ -325,6 +328,10 @@ input{
 .ticket-btn{
     font-size: small;
     width: 92px;
+}
+
+.modal-content{
+    background-color: #05050394;
 }
 
 /*estilos MUSIC*/
