@@ -330,6 +330,10 @@ input{
     width: 92px;
 }
 
+#events-modal{
+    padding-right: 0% !important;
+}
+
 .modal-content{
     background-color: #050503d9;
     border: 1px solid #D9C6A3;
