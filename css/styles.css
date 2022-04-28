@@ -185,11 +185,11 @@ a.river-link{
     padding-top: 10px;
 }
 
-#canvasIndex{
+#masVideos{
     background-color: #050503;
 }
 
-#canvasIndexLabel{
+#masVideosLabel{
     text-decoration: overline;
     padding-right: 35px;
 }
@@ -334,7 +334,6 @@ input{
     background-color: #050503d9;
     border: 1px solid #D9C6A3;
 }
-
 
 
 /*estilos MUSIC*/
