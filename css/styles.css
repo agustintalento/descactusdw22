@@ -331,8 +331,11 @@ input{
 }
 
 .modal-content{
-    background-color: #05050394;
+    background-color: #050503d9;
+    border: 1px solid #D9C6A3;
 }
+
+
 
 /*estilos MUSIC*/
 
