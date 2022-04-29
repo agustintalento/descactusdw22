@@ -19,10 +19,8 @@
     <body id="index-body" class="contain container-fluid">
 
         <!--la estructura del sitio comprende un navbar y un footer gral, cambiando en cada uno el main-->
-        <nav class="nav d-flex justify-content-around align-items-center">
-            
-            <!--navbar compuesto por logo, barra de social media y el menu del sitio-->
-
+        <nav class="nav nav-border d-flex justify-content-around align-items-center">
+                
             <div class="logo-container">
                 <a class="logo" href="index.html">
                     DESCACTUS
@@ -45,14 +43,16 @@
                     <li><a href="bando.html">EL BANDO</a></li>
                 </ul>
             </div>
+            <nav class="navbar navbar-dark">
+                <div class="container-fluid">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+            </nav>
+
             <div class="collapse" id="navbarToggleExternalContent">
-                <nav class="navbar navbar-dark bg-dark">
-                    <div class="container-fluid">
-                        <button type="button" class="btn-close btn-close-white" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-label="Close"></button>
-                      </button>
-                    </div>
-                </nav>
-                <div class="bg-dark p-4">
+                <div class="p-4">
                     <ul>
                         <li><a href="index.html">HOME</a></li>
                         <li><a href="events.html">EVENTOS</a></li>
@@ -61,15 +61,8 @@
                         <li><a href="bando.html">EL BANDO</a></li>
                     </ul>
                 </div>
-              </div>
-              <nav class="navbar navbar-dark bg-dark" id="burger-menu">
-                <div class="container-fluid">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                </div>
-              </nav>
-                
+            </div>
+  
                 
         </nav>
             

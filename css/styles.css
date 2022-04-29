@@ -519,9 +519,29 @@ h2{
         font-size: medium;
     }
 
+    .link-bar{
+        display: none;
 
+    }
+
+    .navbar-dark{
+        display: inline-block;
+        margin-bottom: 15px;
+    }
+
+    .navbar-dark .navbar-toggler {
+        color: #050503;
+        border-color: #050503;
+    }
+
+    .p-4{
+        font-size: large;
+    }
+
+    .p-4 ul{
+        padding-left: 0rem;
+    }
 }
-
 /*cambio fuente del banner del INDEX */
 
 @media screen and (max-width: 375px) {
