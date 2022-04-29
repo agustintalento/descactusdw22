@@ -198,6 +198,9 @@ a.river-link{
     background-color: #d9c6a3;
     
 }
+
+/*miniaturas canvas*/
+
 .offcanvas-body{
     overflow: hidden;
     display: flex;
@@ -208,7 +211,27 @@ a.river-link{
 
 }
 
+.img-yt{
+    height: 80% !important;
+}
 
+.card.video-card{
+    height: 90%;
+    padding-bottom: 0px;
+}
+
+.video-card-text{
+    height: 10%;
+    position: relative;
+}
+
+.offcanvas-body:hover{
+    border: 1px solid whitesmoke;
+}
+
+.offcanvas-body:hover .video-card-text{
+    color: whitesmoke !important;
+}
 /*estilos STORE*/
 
 .store-main{
@@ -346,6 +369,7 @@ input{
     background-color: #05050300 !important;
     padding-bottom: 20px;
 }
+
 #music-container{
     margin-top: 50px;
     display: flex;
