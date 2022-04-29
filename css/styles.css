@@ -357,6 +357,11 @@ input{
     padding-right: 0% !important;
 }
 
+.modal-backdrop.show {
+    height: 100%;
+    width: 100%;
+}
+
 .modal-content{
     background-color: #050503d9;
     border: 1px solid #D9C6A3;
