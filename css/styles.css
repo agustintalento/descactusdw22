@@ -461,10 +461,10 @@ h2{
         grid-template-rows: auto auto 80px;
     }
 
-    #video-container{
+    #video-container {
         width: 100%;
-        margin-top: 40px;
-        margin-bottom: 40px;
+        margin-top: 70px;
+        margin-bottom: 225px;
     }
 
     #video{
@@ -576,8 +576,8 @@ h2{
     }
 
     #video-container{
-        margin-top: 60px;
-        margin-bottom: 70px;
+        margin-top: 170px;
+        margin-bottom: 181px;
     }
 }
 
@@ -593,8 +593,8 @@ h2{
     }
 
     #video-container{
-        margin-top: 70px;
-        margin-bottom: 120px;
+        margin-top: 100px;
+        margin-bottom: 180px;
     }
 
     #videos-btn {
