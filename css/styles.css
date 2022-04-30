@@ -573,6 +573,11 @@ h2{
         font-size: 12px;
         padding: 0.5rem !important;
     }
+
+    #video-container{
+        margin-top: 60px;
+        margin-bottom: 70px;
+    }
 }
 
 /*cambio fuente del banner del INDEX */
