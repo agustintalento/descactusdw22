@@ -216,7 +216,7 @@ a.river-link{
 }
 
 .img-yt{
-    height: 80% !important;
+    height: 90% !important;
 }
 
 .card.video-card{
@@ -463,7 +463,7 @@ h2{
 
     #video-container{
         width: 100%;
-        height: 80%;  
+        margin-top: 20px;
     }
 
     #video{
@@ -509,6 +509,7 @@ h2{
 /* escondo la barra de social media en el navbar, la fuente en el footer, cambio tamaño fuentes en div de STORE */
 
 @media screen and (max-width: 519px) {
+
     .store-main {
         font-size: medium;
     }
@@ -549,6 +550,20 @@ h2{
     .p-4 ul{
         padding-left: 0rem;
     }
+
+    #video-container{
+        flex-direction: row;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        justify-content: space-around;
+        width: 100%;
+    }
+
+    #video {
+        width: 95%;
+        height: 90%;
+    }
+
 }
 
 /*cambio fuente en menu del nav */
@@ -570,7 +585,15 @@ h2{
     #videos-btn{
         padding-top: 0px;
     }
-  
+
+    #video-container{
+        margin-top: 70px;
+        margin-bottom: 120px;
+    }
+
+    #videos-btn {
+        padding-top: 15px;
+    }
 }
 
 /*cambio padding entre elementos del link menu para dejarlos en linea*/
