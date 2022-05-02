@@ -492,7 +492,6 @@ h2{
     }
 
     #video-container {
-        width: 100%;
         margin-top: 100px;
         margin-bottom: 225px;
         flex-direction: row;
