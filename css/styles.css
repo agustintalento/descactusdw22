@@ -168,7 +168,7 @@ a.river-link{
     align-items: center;
     align-content: space-around;
     justify-content: center;
-    aspect-ratio: 16/9;
+    aspect-ratio: 16/9 !important;
 
 }
 
