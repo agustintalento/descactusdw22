@@ -177,11 +177,11 @@ a.river-link{
     height: 70%;
     border: 1px solid #D9C6A3;
     padding: 10px;
-
 }
 
 #video:hover{
     background-color: #244166ad;
+    border: 1px solid whitesmoke;
 
 }
 
@@ -244,7 +244,7 @@ a.river-link{
     align-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 20px;
+    padding-top: 25px;
     padding-bottom: 15px;
    
 }
@@ -261,6 +261,7 @@ h4{
 .store-soon{
     padding-bottom: 20px;
 }
+
 .subs-container{
     display: flex;
     flex-flow: column wrap;
@@ -395,6 +396,7 @@ input{
 
 .album:hover{
     background-color: #244166ad;
+    border: 1px solid whitesmoke;
 }
 
 .album-caption{
@@ -410,13 +412,12 @@ input{
 
 #bando-body{
     grid-template-rows: auto auto 80px;
-
 }
-
 
 .main-photos{
     display: flex;
     flex-flow: column wrap;
+    padding-bottom: 20px;
 }
 
 h2{
@@ -501,6 +502,11 @@ h2{
         height: 100%;
         width: 85%;
         padding: 5px;
+    }
+
+    .main-photos{
+        margin-top: 40px;
+        padding-bottom: 120px;
     }
 }
 
@@ -597,6 +603,11 @@ h2{
 
     #videos-btn {
         padding-top: 15px;
+    }
+
+    .main-photos{
+        margin-top: 30px;
+        padding-bottom: 70px;
     }
 }
 
