@@ -1,0 +1,69 @@
+/*estilos del navbar*/ 
+
+.nav{
+    border-top: $prim-border;
+    padding-top: 10px;
+}
+
+.nav-border{
+    border-bottom: $prim-border;
+}
+
+.navbar-dark{
+    display: none;
+}
+
+.logo-container{
+    display: flex;
+    font-family: $logo-font;
+    font-size: 40px;
+    flex-flow: row wrap;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.sm-bar{
+    padding-right: 50px;
+}
+
+ul{
+    list-style-type: none;
+    
+    li{
+        display: inline-flex;
+        padding: 5px;
+
+        a{
+            &:link{
+                color: $prim-clr;
+                text-decoration: none;
+            }
+            &:visited{
+                color: $prim-clr;
+                text-decoration: none;
+            }
+            &:hover{
+                color: $third-clr;
+            }
+        }
+    }
+}
+
+.p-4{
+    display: none;
+}
+
+
+a.logo{
+
+    color: $prim-clr;
+    text-decoration: none;
+
+    &:hover{
+        color: $prim-clr;
+    }
+}
+
+
+
+

@@ -1,0 +1,18 @@
+/*estilos mq 965px*/
+
+@media screen and (max-width: 965px) {
+
+    #music-body{
+        
+        display: grid;
+        grid-template-rows: auto auto 80px;
+        grid-template-areas: "navbar"
+                             "main"
+                             "footer";
+    }
+
+    .navbar{
+        justify-content: center;
+        align-items: flex-end;
+    }
+} 

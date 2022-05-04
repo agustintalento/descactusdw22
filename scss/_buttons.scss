@@ -1,0 +1,71 @@
+
+/*botones en gral*/
+.btn{
+    background-color: $btn-clr;
+    color: $prim-clr;
+    font-size: small;
+    font-family: $prim-font; 
+    padding: 15px;
+    border: none;
+    transition: all 0.2s;
+
+    &:hover{
+        background-color: $btn-hover;
+        color: $third-clr;
+    }
+}
+
+
+/*boton mas videos INDEX*/
+
+#videos-btn{ 
+
+    padding-top: 10px;
+
+    a{
+        color: $prim-clr !important;
+        text-decoration: none !important;
+
+        &:hover{
+            color: $third-clr !important;
+        }
+
+        &:visited{
+            color: $prim-clr;
+        }
+    }
+}
+
+
+/*botones del canva INDEX*/
+.btn-close{
+    background-color: $prim-clr;
+}
+
+.video-card-text{
+    
+    color: $prim-clr !important;
+    text-decoration: none !important;
+
+    &:hover{
+        color: $third-clr !important;
+    }
+
+    &:visited{
+        color: $prim-clr;
+    }
+    
+}
+
+/*boton form STORE*/
+
+#form-btn{
+    width: 100%;
+}
+
+/*boton de tickets EVENTS*/
+
+.ticket-btn{
+    font-size: small;
+    width: 92px;
+}

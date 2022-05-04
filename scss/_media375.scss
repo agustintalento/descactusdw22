@@ -1,0 +1,21 @@
+/*estilos mq 375px*/ 
+
+@media screen and (max-width: 375px) {
+    .river-link{
+        font-size: small;
+    }
+
+    #video-container{
+        margin-top: 100px;
+        margin-bottom: 180px;
+
+        #videos-btn{
+            padding-top: 15px;
+        }
+    }
+
+    .main-photos{
+        margin-top: 30px;
+        padding-bottom: 70px;
+    }
+}

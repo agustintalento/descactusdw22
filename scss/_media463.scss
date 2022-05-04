@@ -1,0 +1,13 @@
+/*estilos mq 463px*/ 
+
+@media screen and (max-width: 463px) {
+    .p-4{
+        font-size: 12px;
+        padding: 0.5rem !important;
+    }
+
+    #video-container{
+        margin-top: 170px;
+        margin-bottom: 181px;
+    }
+}

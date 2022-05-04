@@ -1,0 +1,59 @@
+/*estilos mq 519*/
+
+@media screen and (max-width: 519px) {
+
+    .store-main {
+        font-size: medium;
+    }
+
+    .sm-bar{
+        display: none;
+    }
+
+    .river-link{
+        font-size: medium;
+    }
+
+    .footer{
+        font-size: medium;
+    }
+
+    .link-bar{
+        display: none;
+    }
+
+    .navbar-dark{
+        display: inline-block;
+        margin-bottom: 15px;
+
+        .navbar-toggler {
+            color: $second-clr;
+            border-color: $second-clr;
+        }
+    }
+
+    .p-4{
+        display: block;
+        font-size: large;
+        padding: 1.0rem !important;
+
+        ul{
+            padding-left: 0rem;
+        }
+    }
+
+    #video-container{
+        flex-direction: row;
+        margin-top: 50px;
+        margin-bottom: 40px;
+        justify-content: space-around;
+        width: 100%;
+
+        #video {
+            width: 95%;
+        }
+    }
+
+    
+
+}

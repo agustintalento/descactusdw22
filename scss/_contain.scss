@@ -1,0 +1,18 @@
+/*estilos grales del sitio */
+.contain{
+    color: $prim-clr;
+    padding: 5px;
+    background-color: $second-clr;
+    font-family: $prim-font;
+    font-size: 20px;
+    display: grid;
+    grid-template-rows: auto 700px 80px;
+    grid-template-areas: "navbar"
+                         "main"
+                         "footer";
+
+}
+
+.main{
+    background-image: url(../img/bck.jpg);
+}

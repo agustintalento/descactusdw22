@@ -1,0 +1,25 @@
+/*estilos mq 768px*/ 
+
+@media screen and (max-width: 768px) {
+
+    #index-body{
+        grid-template-rows: auto auto 80px;
+    }
+
+    #video-container {
+        margin-top: 100px;
+        margin-bottom: 225px;
+        flex-direction: row;
+
+        #video{
+            height: 100%;
+            width: 85%;
+            padding: 5px;
+        }
+    }
+
+    .main-photos{
+        margin-top: 40px;
+        padding-bottom: 120px;
+    }
+}

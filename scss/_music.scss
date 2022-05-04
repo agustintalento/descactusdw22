@@ -1,0 +1,27 @@
+/*estilos de MUSIC*/
+
+
+#music-container{
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .card{
+        background-color: $card-bclr !important;
+        padding-bottom: 20px;
+    }
+    
+    .album{
+        border: $prim-border;
+        padding: 5px;
+    
+        &:hover{
+            background-color: $btn-hover;
+            border: $scnd-border;
+        }
+    }
+}
+
+

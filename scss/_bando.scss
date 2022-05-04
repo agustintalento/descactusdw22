@@ -1,0 +1,40 @@
+/*estilos BANDO*/
+
+#bando-body{
+    grid-template-rows: auto auto 80px;
+}
+
+.main-photos{
+    display: flex;
+    flex-flow: column wrap;
+    padding-bottom: 20px;
+
+    h2{
+        display: flex;
+        flex-flow: row wrap;
+        align-content: center;
+        justify-content: center;
+        padding: 20px 20px;
+    }
+}
+
+.photos{
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    .one-photo{
+        border: $photo-border;
+        width: 90% !important;
+        height: 60% !important;
+        background-color: $btn-clr;
+        margin-bottom: 20px;
+    } 
+ 
+}
+
+
+
+
+

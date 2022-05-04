@@ -1,0 +1,53 @@
+/*estilos footer*/ 
+
+.footer{
+    color: $prim-clr;
+    grid-area: footer;
+    grid-row: 3;
+    grid-column: 1;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    border-top: $prim-border;
+    max-height: 80px;
+    justify-content: space-evenly;
+
+    .sm-footer{
+        width: 297px;
+        height: 25px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-evenly;
+    
+        a {
+            &:visited{
+             color: $prim-clr; 
+            }
+
+            &:hover{
+                color: $third-clr;
+            }
+
+        }
+    }
+    
+    .contact{
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        flex-flow: row wrap;
+        height: 35px;
+        
+        .small-text{
+            font-size: 15px;
+            color: $prim-clr;
+
+            &:hover{
+                color: $third-clr;
+            }
+        }
+    }
+}
+
+
+

@@ -1,0 +1,61 @@
+/*estilos STORE*/ 
+
+.store-main{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 15px;
+
+    .store-soon{
+        padding-bottom: 20px;
+    }
+}
+
+.subs-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: $prim-border;
+    width: 70%;
+    padding-bottom: 50px;
+    background-color: $btn-clr; 
+    
+    #subscribe-first{
+        padding: 10px 10px;
+    }
+
+    .form-group{
+        width: 90%;
+        padding: 5px;
+        padding-left: 10px;
+    }
+}
+
+input{
+    outline: 0 !important;
+    border: none !important ;
+    border-bottom: $prim-border !important;
+    border-radius: 0 !important;
+    box-sizing: border-box ;
+    background-color: #05050300 !important;
+    color: $prim-clr !important;
+    padding-top: 10px;
+    font-family: $prim-font ;
+    text-align: center;
+    font-size: medium; 
+    width: 60%;
+}
+
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    align-items: center;
+    justify-content: space-around;
+}
+
