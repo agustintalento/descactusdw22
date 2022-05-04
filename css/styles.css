@@ -128,6 +128,7 @@ a.logo:hover {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  color: #d9c6a3;
 }
 
 .footer .sm-footer a:visited {
