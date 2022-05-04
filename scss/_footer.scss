@@ -18,9 +18,10 @@
         display: flex;
         flex-flow: row wrap;
         justify-content: space-evenly;
-        color: $prim-clr;
     
         a {
+            color: $prim-clr;
+
             &:visited{
              color: $prim-clr; 
             }
