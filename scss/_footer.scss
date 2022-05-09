@@ -5,18 +5,15 @@
     grid-area: footer;
     grid-row: 3;
     grid-column: 1;
-    display: flex;
-    flex-flow: column wrap;
+    @extend .flex-column-wrap;
     align-items: center;
     border-top: $prim-border;
     max-height: 80px;
     justify-content: space-evenly;
 
     .sm-footer{
-        width: 297px;
-        height: 25px;
-        display: flex;
-        flex-flow: row wrap;
+        @include sizes(297px, 25px);
+        @extend .flex-row-wrap;
         justify-content: space-evenly;
     
         a {
@@ -34,10 +31,9 @@
     }
     
     .contact{
-        display: flex;
+        @extend .flex-row-wrap;
         justify-content: space-evenly;
         align-content: center;
-        flex-flow: row wrap;
         height: 35px;
         
         .small-text{

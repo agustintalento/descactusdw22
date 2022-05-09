@@ -3,8 +3,7 @@
     height: 40px;
     background-color: $prim-clr;
     color: $second-clr;
-    display: flex;
-    flex-direction: row;
+    @extend .flex-row-nowrap;
     justify-content: center;
     align-items: center;
 
@@ -22,17 +21,14 @@
 }
 
 #video-container{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    @extend .flex-column-wrap;
     align-items: center;
     align-content: space-around;
     justify-content: center;
     aspect-ratio: 16/9 !important;
 
     #video{
-        width: 60%;
-        height: 70%;
+        @include sizes(60%, 70%);
         border: $prim-border;
         padding: 10px;
     

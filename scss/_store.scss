@@ -1,11 +1,9 @@
 /*estilos STORE*/ 
 
 .store-main{
-    display: flex;
-    flex-flow: column wrap;
+    @extend .flex-column-wrap;
     align-content: center;
     align-items: center;
-    flex-direction: column;
     padding-top: 25px;
     padding-bottom: 15px;
 
@@ -15,11 +13,9 @@
 }
 
 .subs-container{
-    display: flex;
-    flex-flow: column wrap;
+    @extend .flex-column-wrap;
     align-content: center;
     align-items: center;
-    flex-direction: column;
     border: $prim-border;
     width: 70%;
     padding-bottom: 50px;
@@ -52,8 +48,7 @@ input{
 }
 
 .checkbox{
-    display: flex;
-    flex-direction: row;
+    @extend .flex-row-wrap;
     width: 65%;
     align-items: center;
     justify-content: space-around;

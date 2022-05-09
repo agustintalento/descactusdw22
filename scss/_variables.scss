@@ -20,3 +20,33 @@ $photo-border: 10px solid $prim-clr;
 $prim-font: 'Playfair Display', serif;
 $logo-font: 'Kanit', sans-serif;
 
+//extend
+
+.flex-row-wrap{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex-column-wrap{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.flex-row-nowrap{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.flex-column-nowrap{
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+//mixin
+
+@mixin sizes($width, $height) {
+    width: $width;
+    height: $height;
+
+}
+ 

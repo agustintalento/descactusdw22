@@ -14,10 +14,9 @@
 }
 
 .logo-container{
-    display: flex;
+    @extend .flex-row-wrap;
     font-family: $logo-font;
     font-size: 40px;
-    flex-flow: row wrap;
     align-items: center;
     padding-bottom: 20px;
 }
