@@ -23,7 +23,7 @@
 
     .one-photo{
         border: $photo-border;
-        @include sizes(90% !important, 60% !important);
+        @include sizes(80% !important, 60% !important);
         background-color: $btn-clr;
         margin-bottom: 20px;
     } 

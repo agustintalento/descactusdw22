@@ -10,11 +10,10 @@
     transition: all 0.2s;
 
     &:hover{
-        background-color: $btn-hover;
+        background-color: map-get($media-frame, bg-clr);
         color: $third-clr;
     }
 }
-
 
 /*boton mas videos INDEX*/
 

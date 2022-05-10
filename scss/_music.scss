@@ -13,11 +13,11 @@
     }
     
     .album{
-        border: $prim-border;
-        padding: 5px;
+        border: map-get($media-frame , border);
+        padding: map-get($media-frame , padding );
     
         &:hover{
-            background-color: $btn-hover;
+            background-color: map-get($media-frame, bg-clr);
             border: $scnd-border;
         }
     }
