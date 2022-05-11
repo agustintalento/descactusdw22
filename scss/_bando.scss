@@ -10,8 +10,7 @@
 
     h2{
         @extend .flex-row-wrap;
-        align-content: center;
-        justify-content: center;
+        @extend .center;
         padding: 20px 20px;
     }
 }
@@ -23,7 +22,7 @@
 
     .one-photo{
         border: $photo-border;
-        @include sizes(80% !important, 60% !important);
+        @include sizes(70%, 60%);
         background-color: $btn-clr;
         margin-bottom: 20px;
     } 

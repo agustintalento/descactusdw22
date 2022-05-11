@@ -15,6 +15,6 @@ Para obtener mejores resultados a la hora de la búsqueda:
 
     A las imágenes, le agregué alts que incluyan eventos o nombres, relacionados con cada una. 
         A las miniaturas de 'mas videos' les puse el nombre de cada uno de los videos.
-        A las fotos de EL BANDO les puse el nombre del evento y la locación donde fue realizado,
+        A las fotos de EL BANDO les puse el nombre del evento y la locación donde fue realizado.
      
     

@@ -38,6 +38,15 @@
           flex-flow: column nowrap;
 }
 
+.center, #out-now, #video-container, .main-photos h2 {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 /*estilos grales del sitio */
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
@@ -188,12 +197,6 @@ a.logo:hover {
   height: 40px;
   background-color: #d9c6a3;
   color: #050503;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 #out-now .animate__animated.animate__flash {
@@ -209,14 +212,8 @@ a.logo:hover {
 }
 
 #video-container {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -ms-flex-line-pack: distribute;
       align-content: space-around;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   aspect-ratio: 16/9 !important;
 }
 
@@ -460,11 +457,6 @@ input {
 }
 
 .main-photos h2 {
-  -ms-flex-line-pack: center;
-      align-content: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   padding: 20px 20px;
 }
 
@@ -476,8 +468,8 @@ input {
 
 .photos .one-photo {
   border: 10px solid #d9c6a3;
-  width: 80% !important;
-  height: 60% !important;
+  width: 70%;
+  height: 60%;
   background-color: #05050394;
   margin-bottom: 20px;
 }
@@ -598,6 +590,10 @@ input {
   .main-photos {
     margin-top: 40px;
     padding-bottom: 120px;
+  }
+  .main-photos .one-photo {
+    width: 85% !important;
+    height: 60% !important;
   }
 }
 

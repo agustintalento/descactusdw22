@@ -4,8 +4,7 @@
     background-color: $prim-clr;
     color: $second-clr;
     @extend .flex-row-nowrap;
-    justify-content: center;
-    align-items: center;
+    @extend .center;
 
     .animate__animated.animate__flash {
         --animate-duration: 3s;
@@ -22,9 +21,8 @@
 
 #video-container{
     @extend .flex-column-wrap;
-    align-items: center;
+    @extend .center;
     align-content: space-around;
-    justify-content: center;
     aspect-ratio: 16/9 !important;
 
     #video{

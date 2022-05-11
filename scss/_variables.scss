@@ -42,6 +42,11 @@ $logo-font: 'Kanit', sans-serif;
     flex-flow: column nowrap;
 }
 
+.center{
+    justify-content: center;
+    align-items: center;
+}
+
 //mixin
 
 @mixin sizes($width, $height) {
