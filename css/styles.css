@@ -296,6 +296,10 @@ a.logo:hover {
           align-items: center;
 }
 
+#music-container h2 {
+  font-size: 1.3rem;
+}
+
 #music-container .card {
   background-color: #05050300 !important;
   padding-bottom: 20px;
