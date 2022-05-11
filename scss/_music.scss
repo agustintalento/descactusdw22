@@ -1,5 +1,11 @@
 /*estilos de MUSIC*/
 
+.discography{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    padding-top: 30px;
+}
 
 #music-container{
     @extend .flex-row-wrap;
