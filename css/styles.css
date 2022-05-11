@@ -1,4 +1,4 @@
-.flex-row-wrap, .logo-container, .footer .sm-footer, .footer .contact, #music-container, .checkbox, #main-events h2, .main-photos h2, .photos {
+.flex-row-wrap, .logo-container, .footer .sm-footer, .footer .contact, #music-container, .checkbox, #main-events h1, .main-photos h2, .photos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -313,6 +313,7 @@ a.logo:hover {
 
 .store-main .store-soon {
   padding-bottom: 20px;
+  font-size: 2rem;
 }
 
 .subs-container {
@@ -369,7 +370,8 @@ input {
   padding-bottom: 100px;
 }
 
-#main-events h2 {
+#main-events h1 {
+  font-size: 2rem;
   -ms-flex-line-pack: center;
       align-content: center;
   -webkit-box-pack: center;
@@ -395,6 +397,10 @@ input {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
   background-image: linear-gradient(54deg, #d9c6a3, #c9b797b5);
+}
+
+#contain-events .eventRow:hover {
+  background-color: rgba(245, 245, 245, 0.808);
 }
 
 #contain-events .eventRow .location {
@@ -627,6 +633,9 @@ input {
   #video-container #video {
     width: 95%;
   }
+  .store-soon {
+    font-size: 1.75rem !important;
+  }
 }
 
 /*estilos mq 463px*/
@@ -638,6 +647,9 @@ input {
   #video-container {
     margin-top: 170px;
     margin-bottom: 181px;
+  }
+  .store-soon {
+    font-size: 1.5rem !important;
   }
 }
 
@@ -666,6 +678,9 @@ input {
   }
   .nav {
     padding-left: 5px;
+  }
+  .store-soon {
+    font-size: 1.4rem !important;
   }
 }
 /*# sourceMappingURL=styles.css.map */
