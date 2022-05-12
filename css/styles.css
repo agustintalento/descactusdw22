@@ -453,7 +453,7 @@ input {
 }
 
 .main-photos {
-  padding-bottom: 20px;
+  padding-bottom: 18px;
 }
 
 .main-photos h2 {
@@ -468,7 +468,7 @@ input {
 
 .photos .one-photo {
   border: 10px solid #d9c6a3;
-  width: 70%;
+  width: 67%;
   height: 60%;
   background-color: #05050394;
   margin-bottom: 20px;

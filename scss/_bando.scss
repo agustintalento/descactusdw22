@@ -6,7 +6,7 @@
 
 .main-photos{
     @extend .flex-column-wrap;
-    padding-bottom: 20px;
+    padding-bottom: 18px;
 
     h2{
         @extend .flex-row-wrap;
@@ -22,7 +22,7 @@
 
     .one-photo{
         border: $photo-border;
-        @include sizes(70%, 60%);
+        @include sizes(67%, 60%);
         background-color: $btn-clr;
         margin-bottom: 20px;
     } 
