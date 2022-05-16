@@ -1,0 +1,27 @@
+{
+  "name": "descactus---talento",
+  "version": "1.0.0",
+  "description": "Para obtener mejores resultados a la hora de la búsqueda:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agustintalento/descactusdw22.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/agustintalento/descactusdw22/issues"
+  },
+  "homepage": "https://github.com/agustintalento/descactusdw22#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
