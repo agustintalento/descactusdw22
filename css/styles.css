@@ -1,4 +1,4 @@
-.flex-row-wrap, .logo-container, .footer .sm-footer, .footer .contact, #music-container, .checkbox, #main-events h1, .main-photos h2, .photos {
+.flex-row-wrap, .logo-container, .footer .sm-footer, .footer .contact, #music-container, .checkbox, #main-events h1, .main-photos h1, .photos {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,7 +38,7 @@
           flex-flow: column nowrap;
 }
 
-.center, #out-now, #video-container, .main-photos h2 {
+.center, #out-now, #video-container, .main-photos h1 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -200,7 +200,7 @@ a.logo:hover {
 }
 
 #out-now .animate__animated.animate__flash {
-  --animate-duration: 3s;
+  --animate-duration: 3.25s;
 }
 
 #out-now a.river-link {
@@ -209,6 +209,10 @@ a.logo:hover {
 
 #out-now a.river-link:hover {
   text-decoration: underline;
+}
+
+#out-now a h1 {
+  font-size: 1.5rem;
 }
 
 #video-container {
@@ -456,8 +460,9 @@ input {
   padding-bottom: 18px;
 }
 
-.main-photos h2 {
+.main-photos h1 {
   padding: 20px 20px;
+  font-size: 2rem;
 }
 
 .photos {

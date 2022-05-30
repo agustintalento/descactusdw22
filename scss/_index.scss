@@ -1,5 +1,5 @@
 
-#out-now{
+#out-now {
     height: 40px;
     background-color: $prim-clr;
     color: $second-clr;
@@ -7,48 +7,54 @@
     @extend .center;
 
     .animate__animated.animate__flash {
-        --animate-duration: 3s;
+        --animate-duration: 3.25s;
     }
 
-    a.river-link{
+    a.river-link {
         color: $second-clr;
 
         &:hover {
             text-decoration: underline;
         }
     }
+
+    a {
+        h1 {
+            font-size: 1.5rem;
+        }
+    }
 }
 
-#video-container{
+#video-container {
     @extend .flex-column-wrap;
     @extend .center;
     align-content: space-around;
     aspect-ratio: 16/9 !important;
 
-    #video{
+    #video {
         @include sizes(60%, 70%);
         border: map-get($media-frame , border);
         padding: map-get($media-frame , padding);
     
-        &:hover{
+        &:hover {
             background-color: map-get($media-frame, bg-clr);
             border: $scnd-border;
         }
     }
 }
 
-#masVideos{
+#masVideos {
     background-color: $second-clr;
 }
 
-#masVideosLabel{
+#masVideosLabel {
     text-decoration: overline;
     padding-right: 35px;
 }
 
 /*miniaturas canvas*/
 
-.offcanvas-body{
+.offcanvas-body {
     overflow: hidden;
     @extend .flex-row-nowrap;
     border: map-get($media-frame , border);
@@ -56,25 +62,25 @@
     align-items: center;
     margin-bottom: 10px;
 
-    &:hover{
+    &:hover {
         border: $scnd-border;
 
-        .video-card-text{
+        .video-card-text {
             color: $third-clr !important;
         }
     }
 }
 
-.img-yt{
+.img-yt {
     height: 90% !important;
 }
 
-.card.video-card{
+.card.video-card {
     background-color: $second-clr;
     height: 90%;
 }
 
-.video-card-text{
+.video-card-text {
     height: 10%;
     position: relative;
 }

@@ -4,23 +4,23 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Entérate sobre las entradas, fechas y lugares de nuestros próximos shows acá." />
-        <link rel="stylesheet" href="./css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/styles.css">
-        <link rel="shortcut icon" href="./img/LOGO1.png">
+        <meta name="description" content="Encuentra y escucha nuestra música, además  RIVER. + L II H. nuestro último lanzamiento." />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="shortcut icon" href="../img/LOGO1.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Kanit:wght@800&family=Oswald:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">
-        <title>DESCACTUS | Eventos del Bando </title>
+        <title>DESCACTUS | Música </title>
     </head>
-    <body class="contain container-fluid">
-
+    <body id="music-body" class="contain container-fluid">
         <nav class="nav nav-border d-flex justify-content-around align-items-center">
                 
             <div class="logo-container">
-                <a class="logo" href="index.html">
+                <a class="logo" href="../index.html">
                     DESCACTUS
                 </a>  
             </div>
@@ -52,7 +52,7 @@
             <div class="collapse" id="navbarToggleExternalContent">
                 <div class="p-4">
                     <ul>
-                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="../index.html">HOME</a></li>
                         <li><a href="events.html">EVENTOS</a></li>
                         <li><a href="store.html">TIENDA</a></li>
                         <li><a href="music.html">MÚSICA</a></li>
@@ -60,62 +60,35 @@
                     </ul>
                 </div>
             </div>
-              
-                
+      
                 
         </nav>
         
-        <main id="main-events" class="main">
-            <!--en este caso, el main esta compuesto por filas que indican los eventos próximos de
-            la banda, incluye fecha, lugar y ciudad/pais-->
+        <main class="main">
+            <!--aquí incluí el material discográfico de la banda, cada uno con su título y año de 
+            lanzamiento importado de bandcamp lo que permite reproducir los álbumes en la página-->
+            <h1 class="common-header discography">DISCOGRAFÍA DEL BANDO</h1>    
+            <div id="music-container" class="animate__animated animate__fadeIn animate__delay-1">
 
-            <h1>SHOWS</h1>
-            <div id="contain-events">
-                <div id="firstDate" class="eventRow">
-                    <div class="date"> 22.12.22</div>
-                    <div class="location">
-                        <h3 class="point">PALACIO SUDAMERICA</h3>
-                        <div class="city"><p>Montevideo, Uruguay</p></div>
-                    </div>
-                    <div class="tickets"><button class="ticket-btn btn" data-bs-toggle="modal" data-bs-target="#events-modal" type="button" id="tickets1" >TICKETS</button></div>
+                <div class="card d-flex align-items-center">
+                    <h2>RIVER. + L II H. - 2021</h2>
+                    <iframe class="album" style="width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=200214013/size=large/bgcol=ffffff/linkcol=7137dc/minimal=true/transparent=true/" seamless>
+                        <a href="https://descactus.bandcamp.com/album/river-last-2-hours">RIVER. + LAST 2 HOURS. by DESCACTUS</a>
+                    </iframe>                      
                 </div>
-                <div id="secondDate" class="eventRow">
-                    <div class="date"> 23.12.22</div>
-                    <div class="location">
-                        <h3 class="point">PALACIO SUDAMERICA</h3>
-                        <div class="city"><p>Montevideo, Uruguay</p></div>
+            
+                <div class="card d-flex align-items-center">
+                    <h2>PV (demoEP) - 2015</h2>
+                    <iframe class="album" style="width: 350px; height: 350px;" src="https://bandcamp.com/EmbeddedPlayer/album=2992141652/size=large/bgcol=ffffff/linkcol=0687f5/minimal=true/transparent=true/" seamless>
+                        <a href="https://descactus.bandcamp.com/album/pv-demo-ep">PV (demo EP) by DESCACTUS</a>
+                    </iframe>                  
                     </div>
-                    <div class="tickets"><button class="ticket-btn btn" data-bs-toggle="modal" data-bs-target="#events-modal" type="button" id="tickets2">TICKETS</button></div>
                 </div>
-                <div id="thirdDate" class="eventRow">
-                    <div class="date"> 24.12.22</div>
-                    <div class="location">
-                        <h3 class="point">FESTIVAL QUERIAS FATALES? TOMA!</h3>
-                        <div class="city"><p>La Pedrera, Uruguay</p></div>
-                    </div>
-                    <div class="tickets"><button class="ticket-btn btn" type="button" id="tickets1" disabled>AGOTADO</button></div>
-                </div>
-            </div>
-            <!-- Modal -->
 
-            <div class="modal fade" data-bs-backdrop="static" id="events-modal" tabindex="-1" aria-labelledby="events-modalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-header">
-                    <h5 class="modal-title" id="events-modalLabel">ENTENDEMOS TU ANSIEDAD.</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                        <p>PROXIMAMENTE ENTRADAS DISPONIBLES</p>
-                    </div>
-                    <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">CERRAR</button>
-                    </div>
-                </div>
-                </div>
-            </div>
+            </div> 
+
         </main>
-
+        
         <footer class="footer">
             <div class=" sm-footer">
                 <a href="https://www.facebook.com/dezkak" target="_blank"><i class="fa-brands fa-facebook"> </i> </a>
@@ -132,7 +105,7 @@
             </div>
             
         </footer>
-        <script src="./js/bootstrap.bundle.min.js"></script>    
+        <script src="../js/bootstrap.bundle.min.js"></script>    
 
     </body>
 

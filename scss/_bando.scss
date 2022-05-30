@@ -8,10 +8,11 @@
     @extend .flex-column-wrap;
     padding-bottom: 18px;
 
-    h2{
+    h1{
         @extend .flex-row-wrap;
         @extend .center;
         padding: 20px 20px;
+        font-size: 2rem;
     }
 }
 
