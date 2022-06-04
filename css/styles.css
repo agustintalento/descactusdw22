@@ -652,6 +652,9 @@ input {
   .common-header {
     font-size: 1.75rem !important;
   }
+  #out-now a h1 {
+    font-size: 1.3rem;
+  }
 }
 
 /*estilos mq 463px*/
@@ -666,6 +669,9 @@ input {
   }
   .common-header {
     font-size: 1.5rem !important;
+  }
+  #out-now a h1 {
+    font-size: 1.0rem;
   }
 }
 
@@ -688,6 +694,9 @@ input {
   .photos .one-photo {
     border: 5px solid #d9c6a3;
   }
+  #out-now a h1 {
+    font-size: 1.0rem;
+  }
 }
 
 /*estilos mq 320px*/
@@ -700,6 +709,9 @@ input {
   }
   .common-header {
     font-size: 1.4rem !important;
+  }
+  #out-now a h1 {
+    font-size: 0.9rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */
