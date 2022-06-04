@@ -1,9 +1,14 @@
 /*estilos mq 320px*/ 
 
 @media screen and (max-width: 320px) {
+    
+    .p-4{
+        font-size: 0.8rem;
+    }
+
     ul {
         li {
-            padding: 4px;
+            padding: 2px;
         }
     }
 
