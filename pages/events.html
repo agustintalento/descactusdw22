@@ -15,7 +15,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@200&family=Playfair+Display&display=swap" rel="stylesheet">
         <title>DESCACTUS | Eventos del Bando </title>
     </head>
-    <body class="contain container-fluid">
+    <body id="events-body" class="contain container-fluid">
 
         <nav class="nav nav-border d-flex justify-content-around align-items-center">
                 
@@ -48,7 +48,7 @@
                   </button>
                 </div>
             </nav>
-
+    
             <div class="collapse" id="navbarToggleExternalContent">
                 <div class="p-4">
                     <ul>
@@ -64,11 +64,11 @@
                 
                 
         </nav>
-        
+    
         <main id="main-events" class="main">
             <!--en este caso, el main esta compuesto por filas que indican los eventos próximos de
             la banda, incluye fecha, lugar y ciudad/pais-->
-
+            
             <h1>SHOWS</h1>
             <div id="contain-events">
                 <div id="firstDate" class="eventRow">
@@ -87,17 +87,19 @@
                     </div>
                     <div class="tickets"><button class="ticket-btn btn" data-bs-toggle="modal" data-bs-target="#events-modal" type="button" id="tickets2">TICKETS</button></div>
                 </div>
+                
                 <div id="thirdDate" class="eventRow">
                     <div class="date"> 24.12.22</div>
                     <div class="location">
-                        <h3 class="point">FESTIVAL QUERIAS FATALES? TOMA!</h3>
+                        <h3 class="point">FESTIVAL SANROCHET</h3>
                         <div class="city"><p>La Pedrera, Uruguay</p></div>
                     </div>
                     <div class="tickets"><button class="ticket-btn btn" type="button" id="tickets1" disabled>AGOTADO</button></div>
                 </div>
             </div>
+            
             <!-- Modal -->
-
+    
             <div class="modal fade" data-bs-backdrop="static" id="events-modal" tabindex="-1" aria-labelledby="events-modalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content">
@@ -115,7 +117,7 @@
                 </div>
             </div>
         </main>
-
+    
         <footer class="footer">
             <div class=" sm-footer">
                 <a href="https://www.facebook.com/dezkak" target="_blank"><i class="fa-brands fa-facebook"> </i> </a>
@@ -133,7 +135,7 @@
             
         </footer>
         <script src="../js/bootstrap.bundle.min.js"></script>    
-
+    
     </body>
 
 </html>

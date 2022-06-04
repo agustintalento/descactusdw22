@@ -18,8 +18,45 @@
     #out-now{
         a {
             h1 {
-                font-size: 1.0rem;
+                font-size: 1.1rem;
             }
+        }
+    }
+
+    #music-container .album{
+        width: 300px !important;
+        height: 300px !important;
+    }
+
+    #contain-events{
+
+        .eventRow{
+          
+            .location{
+                padding-top: 2%;
+
+                .city{ 
+                    font-size: small;
+                } 
+
+                h3{
+                    font-size: 1.0rem;
+                }
+            }
+            
+            .date{
+                font-size: medium;
+            }
+
+            .tickets {
+
+                .ticket-btn{
+                    width: 73px;
+                    font-size: small;
+                    padding: 10%;
+                }
+            }
+        
         }
     }
 

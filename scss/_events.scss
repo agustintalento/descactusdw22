@@ -1,5 +1,6 @@
 //estilos de eventos
 
+
 #main-events{
     @extend .flex-column-wrap;
     justify-content: space-evenly;
@@ -21,7 +22,6 @@
     border-top: $scnd-border;
     border-bottom: $scnd-border; 
     padding: 5px 5px;
-
     .eventRow{
         @extend .flex-row-nowrap;
         align-items: center;
@@ -35,20 +35,12 @@
     
         .location{
             @extend .flex-column-nowrap;
-            width: 60%;
-    
+            p{
+                padding-bottom: 0;
+            }
             .city{ 
                 font-size: medium;
             } 
-        }
-        
-        .date{
-            width: 150px;
-            padding-left: 30px;
-        }
-        
-        .tickets{
-            padding-right: 30px;
         }
     
     }

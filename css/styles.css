@@ -419,21 +419,12 @@ input {
   background-color: rgba(245, 245, 245, 0.808);
 }
 
-#contain-events .eventRow .location {
-  width: 60%;
+#contain-events .eventRow .location p {
+  padding-bottom: 0;
 }
 
 #contain-events .eventRow .location .city {
   font-size: medium;
-}
-
-#contain-events .eventRow .date {
-  width: 150px;
-  padding-left: 30px;
-}
-
-#contain-events .eventRow .tickets {
-  padding-right: 30px;
 }
 
 #events-modal {
@@ -671,7 +662,28 @@ input {
     font-size: 1.5rem !important;
   }
   #out-now a h1 {
+    font-size: 1.1rem;
+  }
+  #music-container .album {
+    width: 300px !important;
+    height: 300px !important;
+  }
+  #contain-events .eventRow .location {
+    padding-top: 2%;
+  }
+  #contain-events .eventRow .location .city {
+    font-size: small;
+  }
+  #contain-events .eventRow .location h3 {
     font-size: 1.0rem;
+  }
+  #contain-events .eventRow .date {
+    font-size: medium;
+  }
+  #contain-events .eventRow .tickets .ticket-btn {
+    width: 73px;
+    font-size: small;
+    padding: 10%;
   }
 }
 
@@ -711,6 +723,9 @@ input {
     font-size: 1.4rem !important;
   }
   #out-now a h1 {
+    font-size: 0.9rem;
+  }
+  #contain-events .eventRow .location h3 {
     font-size: 0.9rem;
   }
 }
