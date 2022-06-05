@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 768px) {
 
-    #index-body{
+    #index-body {
         grid-template-rows: auto auto 80px;
     }
 
@@ -11,17 +11,17 @@
         margin-bottom: 225px;
         flex-direction: row;
 
-        #video{
+        #video {
             @include sizes(85%, 100%);
             padding: 5px;
         }
     }
 
-    .main-photos{
+    .main-photos {
         margin-top: 40px;
         padding-bottom: 120px;
 
-        .one-photo{
+        .one-photo {
             @include sizes(85% !important, 60% !important);
         } 
     }

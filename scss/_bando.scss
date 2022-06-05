@@ -1,10 +1,10 @@
 /*estilos BANDO*/
 
-#bando-body{
+#bando-body {
     grid-template-rows: auto auto 80px;
 }
 
-.main-photos{
+.main-photos {
     @extend .flex-column-wrap;
     padding-bottom: 18px;
 
@@ -16,12 +16,12 @@
     }
 }
 
-.photos{
+.photos {
     
     @extend .flex-row-wrap;
     justify-content: center;
 
-    .one-photo{
+    .one-photo {
         border: $photo-border;
         @include sizes(67%, 60%);
         background-color: $btn-clr;

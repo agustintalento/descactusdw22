@@ -1,20 +1,19 @@
 /*estilos STORE*/ 
 
-.store-main{
+.store-main {
     @extend .flex-column-wrap;
     align-content: center;
     align-items: center;
     padding-top: 25px;
     padding-bottom: 15px;
 
-    .store-soon{
+    .store-soon {
         padding-bottom: 20px;
         font-size: 2rem;
     }
-
 }
 
-.subs-container{
+.subs-container {
     @extend .flex-column-wrap;
     align-content: center;
     align-items: center;
@@ -23,18 +22,18 @@
     padding-bottom: 50px;
     background-color: $btn-clr; 
     
-    #subscribe-first{
+    #subscribe-first {
         padding: 10px 10px;
     }
 
-    .form-group{
+    .form-group {
         width: 90%;
         padding: 5px;
         padding-left: 10px;
     }
 }
 
-input{
+input {
     outline: 0 !important;
     border: none !important ;
     border-bottom: $prim-border !important;
@@ -49,7 +48,7 @@ input{
     width: 60%;
 }
 
-.checkbox{
+.checkbox {
     @extend .flex-row-wrap;
     width: 65%;
     align-items: center;

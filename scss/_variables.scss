@@ -22,32 +22,32 @@ $logo-font: 'Kanit', sans-serif;
 
 //extend
 
-.flex-row-wrap{
+.flex-row-wrap {
     display: flex;
     flex-flow: row wrap;
 }
 
-.flex-column-wrap{
+.flex-column-wrap {
     display: flex;
     flex-flow: column wrap;
 }
 
-.flex-row-nowrap{
+.flex-row-nowrap {
     display: flex;
     flex-flow: row nowrap;
 }
 
-.flex-column-nowrap{
+.flex-column-nowrap {
     display: flex;
     flex-flow: column nowrap;
 }
 
-.center{
+.center {
     justify-content: center;
     align-items: center;
 }
 
-.modal-content-format{
+.modal-content-format {
     background-color: $modal-bclr;
     border: $prim-border;
 }

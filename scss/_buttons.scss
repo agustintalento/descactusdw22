@@ -1,6 +1,6 @@
 
 /*botones en gral*/
-.btn{
+.btn {
     background-color: $btn-clr;
     color: $prim-clr;
     font-size: small;
@@ -9,7 +9,7 @@
     border: none;
     transition: all 0.2s;
 
-    &:hover{
+    &:hover {
         background-color: map-get($media-frame, bg-clr);
         color: $third-clr;
     }
@@ -17,19 +17,19 @@
 
 /*boton mas videos INDEX*/
 
-#videos-btn{ 
+#videos-btn { 
 
     padding-top: 10px;
 
-    a{
+    a {
         color: $prim-clr !important;
         text-decoration: none !important;
 
-        &:hover{
+        &:hover {
             color: $third-clr !important;
         }
 
-        &:visited{
+        &:visited {
             color: $prim-clr;
         }
     }
@@ -38,20 +38,20 @@
 
 /*botones del canva INDEX*/
 
-.btn-close{
+.btn-close {
     background-color: $prim-clr;
 }
 
-.video-card-text{
+.video-card-text {
     
     color: $prim-clr !important;
     text-decoration: none !important;
 
-    &:hover{
+    &:hover {
         color: $third-clr !important;
     }
 
-    &:visited{
+    &:visited {
         color: $prim-clr;
     }
     
@@ -59,13 +59,13 @@
 
 /*boton form STORE*/
 
-#form-btn{
+#form-btn {
     width: 100%;
 }
 
 /*boton de tickets EVENTS*/
 
-.ticket-btn{
+.ticket-btn {
     font-size: small;
     width: 92px;
 }

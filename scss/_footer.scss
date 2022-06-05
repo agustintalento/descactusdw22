@@ -1,6 +1,6 @@
 /*estilos footer*/ 
 
-.footer{
+.footer {
     color: $prim-clr;
     grid-area: footer;
     grid-row: 3;
@@ -11,7 +11,7 @@
     max-height: 80px;
     justify-content: space-evenly;
 
-    .sm-footer{
+    .sm-footer {
         @include sizes(297px, 25px);
         @extend .flex-row-wrap;
         justify-content: space-evenly;
@@ -19,28 +19,28 @@
         a {
             color: $prim-clr;
 
-            &:visited{
+            &:visited {
              color: $prim-clr; 
             }
 
-            &:hover{
+            &:hover {
                 color: $third-clr;
             }
 
         }
     }
     
-    .contact{
+    .contact {
         @extend .flex-row-wrap;
         justify-content: space-evenly;
         align-content: center;
         height: 35px;
         
-        .small-text{
+        .small-text {
             font-size: 15px;
             color: $prim-clr;
 
-            &:hover{
+            &:hover {
                 color: $third-clr;
             }
         }

@@ -1,17 +1,17 @@
 /*estilos mq 463px*/ 
 
 @media screen and (max-width: 463px) {
-    .p-4{
+    .p-4 {
         font-size: 0.75rem;
         padding: 0.5rem !important;
     }
 
-    #video-container{
+    #video-container {
         margin-top: 170px;
         margin-bottom: 181px;
     }
 
-    .common-header{
+    .common-header {
         font-size: 1.5rem !important;
     }
 
@@ -23,34 +23,34 @@
         }
     }
 
-    #music-container .album{
+    #music-container .album {
         width: 300px !important;
         height: 300px !important;
     }
 
-    #contain-events{
+    #contain-events {
 
-        .eventRow{
+        .eventRow {
           
-            .location{
+            .location {
                 padding-top: 2%;
 
-                .city{ 
+                .city { 
                     font-size: small;
                 } 
 
-                h3{
+                h3 {
                     font-size: 1.0rem;
                 }
             }
             
-            .date{
+            .date {
                 font-size: medium;
             }
 
             .tickets {
 
-                .ticket-btn{
+                .ticket-btn {
                     width: 73px;
                     font-size: small;
                     padding: 10%;

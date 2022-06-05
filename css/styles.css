@@ -314,6 +314,7 @@ a.logo:hover {
 #music-container .card {
   background-color: #05050300 !important;
   padding-bottom: 20px;
+  border: none;
 }
 
 #music-container .album {
@@ -598,7 +599,7 @@ input {
   }
 }
 
-/*estilos mq 610px*/
+/*estilos mq 647px*/
 @media screen and (max-width: 647px) {
   .subs-container {
     width: 75%;

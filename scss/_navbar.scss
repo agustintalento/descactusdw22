@@ -1,19 +1,19 @@
 /*estilos del navbar*/ 
 
-.nav{
+.nav {
     border-top: $prim-border;
     padding-top: 10px;
 }
 
-.nav-border{
+.nav-border {
     border-bottom: $prim-border;
 }
 
-.navbar-dark{
+.navbar-dark {
     display: none;
 }
 
-.logo-container{
+.logo-container {
     @extend .flex-row-wrap;
     font-family: $logo-font;
     font-size: 40px;
@@ -21,44 +21,44 @@
     padding-bottom: 20px;
 }
 
-.sm-bar{
+.sm-bar {
     padding-right: 50px;
 }
 
 ul{
     list-style-type: none;
     
-    li{
+    li {
         display: inline-flex;
         padding: 5px;
 
-        a{
-            &:link{
+        a {
+            &:link {
                 color: $prim-clr;
                 text-decoration: none;
             }
-            &:visited{
+            &:visited {
                 color: $prim-clr;
                 text-decoration: none;
             }
-            &:hover{
+            &:hover {
                 color: $third-clr;
             }
         }
     }
 }
 
-.p-4{
+.p-4 {
     display: none;
 }
 
 
-a.logo{
+a.logo {
 
     color: $prim-clr;
     text-decoration: none;
 
-    &:hover{
+    &:hover {
         color: $prim-clr;
     }
 }

@@ -1,10 +1,10 @@
 /*estilos grales del sitio */
 
-*, *::before, *::after{
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
-.contain{
+.contain {
     color: $prim-clr;
     padding: 5px;
     background-color: $second-clr;
@@ -18,14 +18,14 @@
 
 }
 
-.main{
+.main {
     background-image: url(../img/bck.jpg);
 }
 
 /*estilos modal de contacto*/
 
 #contactModal {
-    .modal-content{
+    .modal-content {
         @extend .modal-content-format;
     }
    
