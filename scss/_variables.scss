@@ -47,6 +47,11 @@ $logo-font: 'Kanit', sans-serif;
     align-items: center;
 }
 
+.modal-content-format{
+    background-color: $modal-bclr;
+    border: $prim-border;
+}
+
 //mixin
 
 @mixin sizes($width, $height) {

@@ -52,8 +52,7 @@
     padding-right: 0% !important;
 
     .modal-content{
-        background-color: $modal-bclr;
-        border: $prim-border;
+        @extend .modal-content-format;
     }
 }
 

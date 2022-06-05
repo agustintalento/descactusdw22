@@ -30,6 +30,16 @@
  
 }
 
+#contactModal {
+    .modal-content{
+        @extend .modal-content-format;
+    }
+   
+    textarea.form-control {
+        font-family: monospace;
+    }
+}
+
 
 
 

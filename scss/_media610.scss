@@ -1,0 +1,14 @@
+/*estilos mq 610px*/ 
+
+@media screen and (max-width: 610px) {
+    
+    .subs-container{
+        width: 90%;
+        padding-bottom: 20px;
+
+        #subscribe-first {
+            padding-top: 3%;
+            margin-left: 5%;
+        }
+    }
+}

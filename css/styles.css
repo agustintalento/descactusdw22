@@ -47,6 +47,11 @@
           align-items: center;
 }
 
+.modal-content-format, #events-modal .modal-content, #contactModal .modal-content {
+  background-color: #050503d9;
+  border: 1px solid #d9c6a3;
+}
+
 /*estilos grales del sitio */
 *, *::before, *::after {
   -webkit-box-sizing: border-box;
@@ -431,11 +436,6 @@ input {
   padding-right: 0% !important;
 }
 
-#events-modal .modal-content {
-  background-color: #050503d9;
-  border: 1px solid #d9c6a3;
-}
-
 .modal-backdrop.show {
   width: 100%;
   height: 100%;
@@ -468,6 +468,10 @@ input {
   height: 60%;
   background-color: #05050394;
   margin-bottom: 20px;
+}
+
+#contactModal textarea.form-control {
+  font-family: monospace;
 }
 
 /*botones en gral*/
@@ -590,6 +594,18 @@ input {
   .main-photos .one-photo {
     width: 85% !important;
     height: 60% !important;
+  }
+}
+
+/*estilos mq 610px*/
+@media screen and (max-width: 610px) {
+  .subs-container {
+    width: 90%;
+    padding-bottom: 20px;
+  }
+  .subs-container #subscribe-first {
+    padding-top: 3%;
+    margin-left: 5%;
   }
 }
 
