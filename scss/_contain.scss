@@ -21,3 +21,15 @@
 .main{
     background-image: url(../img/bck.jpg);
 }
+
+/*estilos modal de contacto*/
+
+#contactModal {
+    .modal-content{
+        @extend .modal-content-format;
+    }
+   
+    textarea.form-control {
+        font-family: monospace;
+    }
+}

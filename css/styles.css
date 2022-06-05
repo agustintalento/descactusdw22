@@ -47,7 +47,7 @@
           align-items: center;
 }
 
-.modal-content-format, #events-modal .modal-content, #contactModal .modal-content {
+.modal-content-format, #contactModal .modal-content, #events-modal .modal-content {
   background-color: #050503d9;
   border: 1px solid #d9c6a3;
 }
@@ -73,6 +73,11 @@
 
 .main {
   background-image: url(../img/bck.jpg);
+}
+
+/*estilos modal de contacto*/
+#contactModal textarea.form-control {
+  font-family: monospace;
 }
 
 /*estilos del navbar*/
@@ -470,10 +475,6 @@ input {
   margin-bottom: 20px;
 }
 
-#contactModal textarea.form-control {
-  font-family: monospace;
-}
-
 /*botones en gral*/
 .btn {
   background-color: #05050394;
@@ -598,9 +599,9 @@ input {
 }
 
 /*estilos mq 610px*/
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 647px) {
   .subs-container {
-    width: 90%;
+    width: 75%;
     padding-bottom: 20px;
   }
   .subs-container #subscribe-first {
@@ -724,6 +725,9 @@ input {
   }
   #out-now a h1 {
     font-size: 1.0rem;
+  }
+  .subs-container .form-check {
+    margin-left: 4%;
   }
 }
 
